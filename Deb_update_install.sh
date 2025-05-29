@@ -19,7 +19,10 @@ sudo apt update
 sudo apt install -y code
 
 # Install fastfetch, gparted, and gedit
-sudo apt install -y fastfetch gparted gedit
+sudo apt install -y gparted gedit
+
+#install fast fetch manually
+sudo apt install -y ./fastfetch-linux-amd64.deb
 
 # Clean up
 rm microsoft.gpg
