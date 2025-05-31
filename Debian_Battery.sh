@@ -2,7 +2,7 @@
 
 # === CONFIG ===
 BAT_PATH="/sys/class/power_supply/BAT1/charge_control_end_threshold"
-THRESHOLD=60
+THRESHOLD=55
 BIN_SCRIPT="/usr/local/bin/set-battery-threshold.sh"
 SERVICE_FILE="/etc/systemd/system/battery-threshold.service"
 SLEEP_HOOK="/lib/systemd/system-sleep/set-battery-threshold"
